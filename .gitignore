@@ -1,0 +1,93 @@
+# ===============================
+# Node.js
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Lock files (оставь тот, который используешь)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===============================
+# Environment files
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Logs
+# ===============================
+logs
+*.log
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# Build / Dist
+# ===============================
+
+# NestJS build
+dist/
+build/
+
+# Next.js build
+.next/
+out/
+
+# Coverage
+coverage/
+
+# Turbo / Nx (если используешь)
+.turbo/
+.nx/
+
+# ===============================
+# Testing
+# ===============================
+jest.config.js.snap
+*.lcov
+
+# ===============================
+# TypeScript
+# ===============================
+*.tsbuildinfo
+
+# ===============================
+# Docker
+# ===============================
+docker-compose.override.yml
+
+# ===============================
+# Misc
+# ===============================
+.tmp/
+.temp/
+.cache/
+
+# Storybook
+storybook-static/
+
+# Prisma (если используется)
+prisma/*.db
+prisma/*.db-journal
+
+# Uploads (если есть)
+uploads/
